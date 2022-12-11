@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     font-family: 'Comic Neue', cursive;
 }
@@ -45,12 +49,22 @@ h2{
     margin-bottom: 40px;
 }
 
-.main-text{
-    background-color: rgb(173, 235, 238);
+#menu-chicken, #menu-beef, #menu-sushi{
+    margin-bottom: 20px;
 }
 
-.main-text p{
+#menu-chicken p, #menu-beef p, #menu-sushi p{
     font-size: 1.5em;
+}
+
+#menu-chicken a, #menu-beef a, #menu-sushi a{
+    font-size: 1.8em;
+    color: blue;
+}
+
+.menu-content{
+    padding: 10px 15px;
+    background-color: aquamarine;
 }
 /* END MAIN */
 
